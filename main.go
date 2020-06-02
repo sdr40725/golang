@@ -1,10 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	a := 1
-	fmt.Printf("Hellow World!!")
+	fmt.Printf(HelloWorld())
 	if a > 1 {
 		fmt.Println("a > 1")
 	}
